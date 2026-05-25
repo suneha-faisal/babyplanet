@@ -2,7 +2,7 @@
     height: 50px;
     display: flex;
     margin-left: 10px;
-    
+
 }
 
 .search-container {
@@ -73,6 +73,7 @@
 .hero-section img {
     width: 100%;
 }
+
 .shop-section {
     display: flex;
     gap: 20px;
@@ -83,8 +84,8 @@
 
 
 .box img {
-    width: 100%;      
-    object-fit: cover;  
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
     display: block;
 }
@@ -104,14 +105,8 @@
 .p {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: grey;
 }
-
-.p i {
-    margin-bottom: 10px;
-}
-
 
 .container {
     display: flex;
@@ -121,22 +116,53 @@
 }
 
 .a {
+    width: 19%;
     border: 1px solid gray;
     border-radius: 10px;
-    
+     color: #962c8a;
+    font-weight: bold;
 }
+
+.a:hover{
+    cursor: grab
+}
+
+
 
 
 
 .a img {
-    width: 100%;      
-    object-fit: cover;  
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    display: block;
-    
+    position: relative;
 }
+
+.image1 {
+    display: block;
+    transition: opacity 0.5s;
+   
+}
+
+.image2 {
+    display: none;
+}
+
+.product-images:hover {
+    cursor: pointer;
+}
+
+.product-images:hover .image1 {
+    display: none;
+}
+
+.product-images:hover .image2 {
+    display: block;
+    transition: opacity 0.5s;
+}
+
 
 .a p {
     color: gray;
@@ -149,10 +175,7 @@
     padding-left: 10px;
 }
 
-.a {
-    color: #962c8a;
-    font-weight: bold;
-}
+
 
 .a button {
     padding: 10px;
@@ -179,5 +202,51 @@
     height: 250px;
     overflow: hidden;
     border-radius: 10px;
+    display: none;
 }
 
+.veiw{
+    height: 20px;
+    width: 6%;
+    border: 2px solid  #962c8a;;
+    border-radius: 13px;
+    color: #962c8a;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 4px;
+   margin: auto;
+   display: block;
+   transition: 0.3s;
+}
+
+.veiw:hover{
+    background-color: #962c8a;
+    color: white;
+    
+}
+.footer{
+    display: flex;
+    
+}
+
+.foot1{
+    height: 300px;
+    width: 50%;
+    background-color: rgb(238, 236, 236);
+    color: gray;
+}
+.foot2{
+    height: 300px;
+    width: 50%;
+    background-color: rgb(238, 236, 236);
+    color: gray;
+}
+.text{
+    color: #962c8a;
+    font-size: 30px;
+    font-weight: 80;
+    padding-top: 50px;
+}
+.foot p{
+    
+}
