@@ -119,11 +119,11 @@
     width: 19%;
     border: 1px solid gray;
     border-radius: 10px;
-     color: #962c8a;
+    color: #962c8a;
     font-weight: bold;
 }
 
-.a:hover{
+.a:hover {
     cursor: grab
 }
 
@@ -143,7 +143,7 @@
 .image1 {
     display: block;
     transition: opacity 0.5s;
-   
+
 }
 
 .image2 {
@@ -205,48 +205,153 @@
     display: none;
 }
 
-.veiw{
+.veiw {
     height: 20px;
     width: 6%;
-    border: 2px solid  #962c8a;;
+    border: 2px solid #962c8a;
     border-radius: 13px;
     color: #962c8a;
     font-size: 15px;
     padding-left: 15px;
     padding-top: 4px;
-   margin: auto;
-   display: block;
-   transition: 0.3s;
+    margin: auto;
+    display: block;
+    transition: 0.3s;
 }
 
-.veiw:hover{
+.veiw:hover {
     background-color: #962c8a;
     color: white;
-    
-}
-.footer{
-    display: flex;
-    
+
 }
 
-.foot1{
+.footer {
+    display: flex;
+
+}
+
+.foot1 {
     height: 300px;
     width: 50%;
     background-color: rgb(238, 236, 236);
     color: gray;
 }
-.foot2{
+
+.foot2 {
     height: 300px;
     width: 50%;
     background-color: rgb(238, 236, 236);
     color: gray;
 }
-.text{
+
+.text {
     color: #962c8a;
     font-size: 30px;
     font-weight: 80;
     padding-top: 50px;
+    padding-left: 20px;
 }
-.foot p{
+
+.footer p {
+    text-align: justify;
+    line-height: 1.3;
+    padding-left: 20px;
+}
+
+.foot3 {
+    height: 200px;
+    background-color: #962c8a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+
+.foot4 {
+    height: 300px;
+    background-color: #962c8a;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+
+.foot4 {
+    color: white;
+    padding-left: 20px;
+
+}
+
+.search-email {
+    width: 50%;
+    display: flex;
+    background: #fff;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+.search-email input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 40px 0 0 40px
+}
+
+.search-email button {
+    background: #b03aa3;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 19px;
+}
+
+.box {
+    display: flex;
+    margin-left: 640px;
+}
+
+.foot5 {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul b {
+    display: block;
+    color: grey;
+
+}
+
+ul p {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.foot5 :hover {
+    color: #962c8a;
+}
+
+.icons {
+    color: #962c8a;
+    font-size: 35px;
+    padding-top: 400px;
+    display: flex;
+}
+
+.foot5 i {
+    padding-top: 300px;
     
 }
