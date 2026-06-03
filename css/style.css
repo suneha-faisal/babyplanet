@@ -243,6 +243,9 @@
     color: white;
 
 }
+.bar img{
+    width: 100%;
+}
 
 .footer {
     display: flex;
