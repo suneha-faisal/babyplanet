@@ -1,3 +1,4 @@
+
 .logo {
     height: 50px;
     display: flex;
@@ -114,6 +115,21 @@
     max-width: 95%;
     margin: 20px;
 }
+.discount{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #e926ae;
+    color: white;
+    border-radius: 50%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 10;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
 .a {
     width: 19%;
@@ -196,6 +212,8 @@
     color: white;
 }
 
+
+
 .img-box {
     position: relative;
     width: 100%;
@@ -272,6 +290,8 @@
 .foot4 {
     height: 300px;
     background-color: #962c8a;
+    color: white;
+    padding-left: 20px;
 }
 
 h2 {
@@ -282,10 +302,10 @@ h2 {
 }
 
 
-.foot4 {
-    color: white;
-    padding-left: 20px;
-
+.foot4 p {
+    padding-left: 26px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .search-email {
@@ -316,9 +336,9 @@ h2 {
     font-size: 19px;
 }
 
-.box {
+.cheack {
     display: flex;
-    margin-left: 640px;
+    margin-left: 625px;
 }
 
 .foot5 {
@@ -347,11 +367,9 @@ ul p {
 .icons {
     color: #962c8a;
     font-size: 35px;
-    padding-top: 400px;
     display: flex;
-}
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
 
-.foot5 i {
-    padding-top: 300px;
-    
 }
