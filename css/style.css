@@ -179,7 +179,42 @@
     display: block;
     transition: opacity 0.5s;
 }
+.a{
+    position: relative;
+    width: 250px;
+}
 
+
+.card{
+    position: absolute;
+    top: 13px;
+    right: -50px; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.a:hover .card{
+    right: 10px; 
+    opacity: 1;
+}
+
+.card i{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card i:hover{
+    background: #962c8a;
+    color: white;
+}
 
 .a p {
     color: gray;
