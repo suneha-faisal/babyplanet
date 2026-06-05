@@ -53,13 +53,14 @@
         font-size: 10px;
     }
 
-    .container {
-        display: flow;
-    }
 
     .a {
-        width: 100%;
-        margin: 10px;
+        width: 98%;
+        
+    }
+
+    .box{
+        width:48%
     }
 
     .veiw {

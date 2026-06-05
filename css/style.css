@@ -7,7 +7,7 @@
 }
 
 .search-container {
-    width: 50%;
+    
     display: flex;
     background: #fff;
     margin-left: 120px;
@@ -76,10 +76,11 @@
 }
 
 .shop-section {
-    display: flex;
-    gap: 20px;
-    max-width: 95%;
-    margin: 20px;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
 }
 
 
@@ -112,9 +113,10 @@
 
 .container {
     display: flex;
-    gap: 20px;
-    max-width: 95%;
-    margin: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    
 }
 .discount{
     position: absolute;
@@ -181,7 +183,7 @@
 }
 .a{
     position: relative;
-    width: 250px;
+    
 }
 
 
@@ -189,14 +191,16 @@
     position: absolute;
     top: 13px;
     right: -50px; 
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 12px;
     opacity: 0;
-    transition: all 0.4s ease;
+    transition: opacity 2s ease-in-out;
 }
 
 .a:hover .card{
+    display: flex;
+    transition: opacity 2s 0.6 ease-in-out;
     right: 10px; 
     opacity: 1;
 }
